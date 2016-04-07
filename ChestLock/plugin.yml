@@ -21,6 +21,6 @@ permissions:
     default: true
     description: "Lock Your Chests"
   chestlock.op:
-    default: false
+    default: op
     description: "Unlock Chests"
   
