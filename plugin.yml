@@ -1,0 +1,26 @@
+name: ChestLock
+author: Skyladd
+version: 1.0.0
+main: Skyladd\ChestLock
+load: POSTWORLD
+api: 2.0.0
+website: "https://github.com/Skyladd/ChestLock/"
+commands:
+  chest:
+    description: "Lock your chests"
+    usage: "/chest"
+    permission: chestlock
+    default: true
+  chestop:
+    description: "Unlock chests"
+    usage: "/chestop"
+    permission: chestlock.op
+    default: op
+permissions:
+  chestlock:
+    default: true
+    description: "Lock your chests"
+  chestlock.op:
+    default: op
+    description: "Unlock chests"
+  
